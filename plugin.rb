@@ -13,5 +13,5 @@ register_asset 'stylesheets/checklist.scss'
 register_svg_icon 'spinner' if respond_to?(:register_svg_icon)
 
 after_initialize do
-raise
+  MyUnknownConstant.setup!
 end
